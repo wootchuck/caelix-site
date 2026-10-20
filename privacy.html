@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Synapse 개인정보처리방침</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --line: #d1d9e0; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #16181c; --fg: #e6e8eb; --muted: #9aa3ad; --line: #2e3238; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.7 system-ui, "Malgun Gothic", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; }
+  p.sub { color: var(--muted); margin: 0 0 24px; }
+  ul { padding-left: 20px; }
+  a { color: inherit; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Synapse 개인정보처리방침</h1>
+  <p class="sub">시행일 2026-10-20 · <a href="index.html">Synapse</a></p>
+
+  <h2>누가 쓰나</h2>
+  <p>Synapse 는 운영자 한 사람이 자기 업무에 쓰는 도구입니다. Google 계정 연결은 운영자 본인 계정 하나뿐이고, 다른 사람의 Google 계정에는 연결하지 않습니다.</p>
+
+  <h2>Google 에서 읽는 것</h2>
+  <ul>
+    <li>운영자 본인 Google 연락처의 이름 · 전화번호 · 소속 · 직함 · 이메일(Google People API, 범위 <code>contacts</code>).</li>
+  </ul>
+
+  <h2>어떻게 쓰나</h2>
+  <ul>
+    <li>읽은 연락처를 사내 IR 장부의 전화번호와 맞춥니다. <b>장부에 있는 번호와 맞는 연락처만</b> 그 연락처의 이름(과 비어 있는 소속 · 이메일 칸)을 장부에 남깁니다.</li>
+    <li>맞지 않는 연락처(가족 · 지인 등)는 읽은 자리에서 버리며, 이름도 번호도 저장하지 않습니다.</li>
+  </ul>
+
+  <h2>Google 에 쓰는 것</h2>
+  <ul>
+    <li>장부에서 만든 개인주주 연락처를 운영자 본인 연락처에 만들거나 고칩니다. 이렇게 만든 연락처에는 「Synapse」 라벨을 답니다.</li>
+    <li>「Synapse」 라벨이 없는 연락처(명함 앱 · 손으로 넣은 것)는 읽기만 하고 고치거나 지우지 않습니다.</li>
+  </ul>
+
+  <h2>어디에 두나 · 누구에게 주나</h2>
+  <ul>
+    <li>장부는 운영자 회사의 사내 서버에 있습니다. 인터넷에 공개하지 않고, 제3자에게 팔거나 넘기지 않으며, 광고에 쓰지 않습니다.</li>
+    <li>Google 연결 토큰은 사내 서버의 비밀 자리에 두고 설정 파일에 평문으로 적지 않습니다.</li>
+    <li>Synapse 가 Google API 에서 받은 정보를 쓰고 다른 앱으로 옮기는 일은 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>(제한적 사용 요건 포함)을 따릅니다.</li>
+  </ul>
+
+  <h2>끊기 · 지우기</h2>
+  <ul>
+    <li>Google 계정 › 보안 › 「타사 앱 및 서비스」 에서 Synapse 연결을 언제든 끊을 수 있습니다. 끊으면 Synapse 는 더 이상 연락처를 읽거나 쓰지 못합니다.</li>
+    <li>장부에 남은 구글 이름은 운영자가 장부에서 지울 수 있습니다.</li>
+  </ul>
+
+  <footer>문의: chris.park.pch@gmail.com</footer>
+</main>
+</body>
+</html>
